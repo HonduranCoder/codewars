@@ -78,3 +78,5 @@ function odds(values){
 
 //String repeat 8kyu
 repeatStr = (n, s) => s.repeat(n)
+
+//Well of Ideas 6kyu
