@@ -33,7 +33,6 @@ function solution(str, ending){
 
 function sumStr(a,b) {
 return ((+a) + (+b)).toString()
-
 }
 
 //Get Number From String 8kyu
