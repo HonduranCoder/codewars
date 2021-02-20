@@ -1,4 +1,4 @@
-/CODEWARS
+//CODEWARS
 
 //Multiply 8kyu
 function multiply(a, b){
