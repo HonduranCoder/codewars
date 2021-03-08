@@ -68,3 +68,7 @@ function numberToPower(number, power){
 
 //Return the day 8kyu
 whatday=n=>[,'Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'][n]||'Wrong, please enter a number between 1 and 7'
+
+//Sentence Smash 8kyu
+// Smash Words
+const smash = words => words.join(' ');
