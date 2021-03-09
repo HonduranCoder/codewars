@@ -65,3 +65,6 @@ function numberToPower(number, power){
     }
     return result
   }
+
+//Return the day 8kyu
+whatday=n=>[,'Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'][n]||'Wrong, please enter a number between 1 and 7'
