@@ -26,7 +26,7 @@ function removeChar(str){
   return str.slice(1,-1)
 }
 
-//String Ends with? 7kyu
+//String Ends with 7kyu
 function solution(str, ending){
  return str.indexOf(ending, str.length - ending.length) !== -1;
 }
