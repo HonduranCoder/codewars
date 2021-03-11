@@ -56,3 +56,4 @@ function SeriesSum(n)
   }
   return result.toFixed(2)
 };
+//
