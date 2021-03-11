@@ -1,4 +1,5 @@
 //CODEWARS
+
 //Multiply 8kyu
 function multiply(a, b){
   a * b
@@ -9,8 +10,7 @@ function multiply(a, b){
 
 multiply(4,5);
 
-//removeChar
-//8kyu
+//remove character 8kyu
 function removeChar(str){
   return str.slice(1,-1)
 }
@@ -40,3 +40,19 @@ return ((+a) + (+b)).toString();
 function getNumberFromString(s) {
   return Number(s.match(/\d/g).join(''));
 }
+
+//Sum of the first nth term of series 7kyu
+function SeriesSum(n)
+ {
+  let result = 0
+  let reverage = 1
+  for (let i = 0; i < n; i += 1) {
+    if (i === 0) {
+      result = 1
+    } else {
+      reverage += 3
+      result = result + (1 / reverage)
+    }
+  }
+  return result.toFixed(2)
+};
