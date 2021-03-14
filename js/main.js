@@ -76,3 +76,6 @@ const smash = words => words.join(' ')
 function odds(values){
   return values.filter(function(num){ if( num % 2 ) return num})
 }
+
+//String repeat 8kyu
+repeatStr = (n, s) => s.repeat(n)
