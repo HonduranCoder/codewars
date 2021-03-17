@@ -74,5 +74,5 @@ const smash = words => words.join(' ')
 
 //Are arrow functions odd? 8kyu
 function odds(values){
-  return values.filter(function(num){ if( num % 2 ) return num;});
+  return values.filter(function(num){ if( num % 2 ) return num})
 }
