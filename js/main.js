@@ -89,3 +89,5 @@ function well(array) {
   }
   return count > 2 ? 'I smell a series!' : count >= 1 ? 'Publish!' : 'Fail!';
 }
+
+//Maximum subarray sum
