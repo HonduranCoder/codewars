@@ -108,4 +108,7 @@ function maxSequence(arr){
 
 maxSequence([-2, -1, -3, -4, -1, -2, -1, -5, -4])
 
-//Print Errors
+//Print Errors 7kyu
+function printError(s){
+  
+}
