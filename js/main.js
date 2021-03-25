@@ -112,5 +112,5 @@ maxSequence([-2, -1, -3, -4, -1, -2, -1, -5, -4])
 function printError(s){
   const dic = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm']
    const splitString = s.split('')
-   let error = 0
+   let error = 0;
 }
