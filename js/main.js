@@ -113,5 +113,5 @@ function printError(s){
   const dic = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm']
    const splitString = s.split('')
    let error = 0
-   splitString.map((x) =>  dic.includes(x) === false
+   splitString.map((x) =>  dic.includes(x) === false ? error += 1
 }
