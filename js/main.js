@@ -114,5 +114,5 @@ function printError(s){
    const splitString = s.split('')
    let error = 0
    splitString.map((x) =>  dic.includes(x) === false ? error += 1 : error += 0
-    return
+    return `${error}/${s.length}`
 }
