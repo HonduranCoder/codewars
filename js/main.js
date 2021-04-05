@@ -123,3 +123,4 @@ function printerError(s) {
 
 //Training Js #18
 function splitAndMerge(str,sp){
+  let words = str
