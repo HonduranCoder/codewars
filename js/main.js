@@ -128,3 +128,8 @@ function splitAndMerge(str,sp){
 }
 
 //List Filtering
+function filter_list(l) {
+  return l.filter((e) => {
+      return typeof e !== 'string'
+    })
+  }
