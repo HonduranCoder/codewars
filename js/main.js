@@ -133,3 +133,5 @@ function filter_list(l) {
       return typeof e !== 'string'
     })
   }
+
+//Find Maximum and Minimum Values of a List 
