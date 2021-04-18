@@ -147,4 +147,5 @@ function opposite(n) {
   return -n
 }
 
-//Beginner-Reduce but Grow 
+//Beginner-Reduce but Grow
+function grow(x){
