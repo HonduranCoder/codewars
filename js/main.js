@@ -149,3 +149,4 @@ function opposite(n) {
 
 //Beginner-Reduce but Grow
 function grow(x){
+  return x.reduce((res,n)=> res*n)
