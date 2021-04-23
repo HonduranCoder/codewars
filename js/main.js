@@ -153,3 +153,7 @@ function grow(x){
 }
 
 //Descending Order
+function descendingOrder(n){
+      return parseInt((n+'').split('').sort().reverse().join(''))
+
+}
