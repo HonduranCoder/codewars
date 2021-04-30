@@ -168,3 +168,13 @@ function Fighter(name, health, damagePerAttack) {
 function declareWinner(fighter1, fighter2, firstAttacker) {
   var result,
       winner
+
+      if (fighter1.name == firstAttacker) {
+          firstAttacker = fighter1;
+          battlev1();
+        } else if (fighter2.name == firstAttacker) {
+          firstAttacker = fighter2;
+          battlev2();
+        } else {
+          console.log(`${firstAttacker} isn't fighting right now!`)
+        }    
