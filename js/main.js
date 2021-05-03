@@ -182,4 +182,20 @@ function declareWinner(fighter1, fighter2, firstAttacker) {
      while (firstAttacker.health > 0 && fighter2.health > 0) {
        fightv1();
      }
-   }    
+   }
+
+   function fightv1() {
+   fighter2.health -= firstAttacker.damagePerAttack;
+   result = `${firstAttacker.name} attacks ${fighter2.name}; ${fighter2.name} now has ${fighter2.health} health.`;
+   console.log(result);
+     if(fighter2.health <= 0) {
+       result = `${firstAttacker.name} attacks ${fighter2.name}; ${fighter2.name} now has ${fighter2.health} health and is dead. ${firstAttacker.name} wins`;
+       winner = firstAttacker.name;
+       console.log(result);
+       return winner;
+     } else if (firstAttacker.health <= 0) {
+       result = `${fighter2.name} attacks ${firstAttacker.name}; ${firstAttacker.name} now has ${firstAttacker.health} health and is dead. ${fighter2.name} wins`;
+       winner = fighter2.name;
+       console.log(result);
+       return winner;
+     }
