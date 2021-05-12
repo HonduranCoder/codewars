@@ -282,3 +282,8 @@ console.log(result);
 return winner
 }
 declareWinner(new Fighter("Jerry", 30, 3), new Fighter("Harald", 20, 5), "Jerry")
+
+//Complete the Pattern #1
+function patter(n){
+
+}
