@@ -287,5 +287,6 @@ declareWinner(new Fighter("Jerry", 30, 3), new Fighter("Harald", 20, 5), "Jerry"
 function patter(n){
   var res = [], i
    for(i = 1; i <= n; i++) {
-     
+     res.push(Array(i + 1).join(i))
+  }
 }
