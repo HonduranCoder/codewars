@@ -289,4 +289,5 @@ function patter(n){
    for(i = 1; i <= n; i++) {
      res.push(Array(i + 1).join(i))
   }
+    return res.join('\n')
 }
