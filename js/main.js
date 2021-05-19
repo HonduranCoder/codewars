@@ -294,3 +294,4 @@ function patter(n){
 
 //Find the perfect square
 function findNextSquare(sq) {
+ var sqRt = Math.sqrt( sq );
