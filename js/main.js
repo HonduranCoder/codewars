@@ -293,6 +293,6 @@ function patter(n){
 }
 
 //Find the perfect square
-function findNextSquare(sq) {
- var sqRt = Math.sqrt( sq )
- if ( NaN === sqRt || sqRt !== parseInt( sqRt, 10 ) ) {
+function findNextSquare(sq) {;
+ var sqRt = Math.sqrt( sq );
+ if ( NaN === sqRt || sqRt !== parseInt( sqRt, 10 ) ) {;
