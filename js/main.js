@@ -299,3 +299,4 @@ function findNextSquare(sq) {
 return -1
 }
 return Math.pow( sqRt + 1, 2 )
+}
