@@ -309,3 +309,4 @@ String.prototype.toJadenCase = function () {
 
 //Beginner Series 33 Sum of Numbers
 function getSum(a,b){
+  let count = 0
