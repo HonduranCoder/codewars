@@ -311,4 +311,5 @@ String.prototype.toJadenCase = function () {
 function getSum(a,b){
   let count = 0
   if (a == b) return a
-   if(a < b){
+  if(a < b){
+     for (; a <= b; a++){
