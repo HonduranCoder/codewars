@@ -319,3 +319,4 @@ function getSum(a,b){
     for(; b <= a; b++){
       count += a
     }
+  } else if (a > b){
