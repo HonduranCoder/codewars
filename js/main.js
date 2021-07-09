@@ -336,3 +336,6 @@ return n > 0 ? text.replace(new RegExp(oldValue, "g"), c => ++i % n === 0 ? newV
 //Convert String to Camel Case
 function toCamelCase(str){
   return str.replace(/[-_](.)/g, (_, c) => c.toUpperCase());
+}
+
+//Exes ands Ohs
