@@ -341,3 +341,4 @@ function toCamelCase(str){
 //Exes ands Ohs
 function XO(str) {
   let x = str.match(/x/gi)
+  let o = str.match(/o/gi)
