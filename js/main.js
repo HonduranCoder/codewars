@@ -345,4 +345,4 @@ function XO(str) {
   return (x && x.length) === (o && o.length);
 }
 
-//Exclamation marks series #1
+//Exclamation marks series #13
