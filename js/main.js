@@ -346,4 +346,6 @@ function XO(str) {
 }
 
 //Exclamation marks series #13
-function product(s)
+function product(s){
+  return
+}
