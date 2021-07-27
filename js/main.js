@@ -349,3 +349,5 @@ function XO(str) {
 function product(s){
   return (s.match(/\?/g)||[]).length*(s.match(/!/g)||[]).length
 }
+
+//Birthday -Cake 
