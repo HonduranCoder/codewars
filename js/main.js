@@ -351,3 +351,4 @@ function product(s){
 }
 
 //Birthday -Cake 
+function cake(x, y){
