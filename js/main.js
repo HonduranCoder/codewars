@@ -352,3 +352,4 @@ function product(s){
 
 //Birthday -Cake 
 function cake(x, y){
+  let num=y.split('').reduce((a,b,i)=>a+(i%2===0?b.charCodeAt(0):b.charCodeAt(0)-96),0);
