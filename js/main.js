@@ -366,3 +366,4 @@ function greet(name) {
 function autocomplete(input, d){
   input=input.replace(/[^a-zA-Z]/gi,'')
   const arr=[];
+  for (let i=0;i<d.length;i++){
