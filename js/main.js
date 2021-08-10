@@ -368,3 +368,4 @@ function autocomplete(input, d){
   const arr=[];
   for (let i=0;i<d.length;i++){
     if (d[i].slice(0,input.length).toLowerCase()===input.toLowerCase()){ arr.push(d[i]) }
+  }
