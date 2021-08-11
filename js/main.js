@@ -371,3 +371,5 @@ function autocomplete(input, d){
   }
   return arr.slice(0,5)
 }
+
+//Backspaces in string
