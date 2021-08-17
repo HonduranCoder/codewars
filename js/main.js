@@ -376,3 +376,4 @@ function autocomplete(input, d){
 function clean_string(s) {
   s=s.split``
   for (let i=0;i<s.length;i++){
+    if (s[i]==='#'){
