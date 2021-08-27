@@ -386,4 +386,5 @@ function clean_string(s) {
   return s.join``
 };
 
-//A sString of Sorts
+//A String of Sorts
+function sortString(string,ordering) {
