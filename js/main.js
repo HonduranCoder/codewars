@@ -388,4 +388,4 @@ function clean_string(s) {
 
 //A String of Sorts
 function sortString(string,ordering) {
-  ordering=ordering.split``
+  ordering=ordering.split``;
