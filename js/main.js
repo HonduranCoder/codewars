@@ -398,4 +398,4 @@ function sortString(string,ordering) {
     return arr1.join``+arr2.join``
   }
 
-  //101 Dalmations
+  //101 Dalmations- squash the bugs not the dogs
