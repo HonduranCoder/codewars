@@ -401,4 +401,5 @@ function sortString(string,ordering) {
   //101 Dalmations- squash the bugs not the dogs
   function howManyDalmatians(number){
     if (number <= 10) {
+      return "Hardly any"
   };
